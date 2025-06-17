@@ -22,7 +22,7 @@ func Hello(name, language string) string {
 	return greetingPrefix(language) + name
 }
 
-func greetingPrefix(language string) (prefix string) {
+func greetingPrefix(language string) (prefix string) { // private function starts with lowercase letter
 	switch language {
 	case portuguese:
 		prefix = portugueseHelloPrefix
